@@ -1,0 +1,37 @@
+/*seção de responsividade*/
+
+/*laptop*/
+
+@media(max-width:768px){
+    .instragram-wrapper{
+        width:90%;
+    }
+   
+    
+}
+
+/*mobile*/
+
+@media(max-width:650px){
+    body{
+        background-color:#ffffff;
+    }
+    .instragram-wrapper{
+        width:90%;
+    }
+
+    .instragram-phone{
+        display:none;
+    }
+    .instragram-continus{
+        width:100%;
+    }
+    .group{
+        border:1px solid transparent;
+    }
+    .app-download {
+        width:40px;
+        padding:1rem;
+    }
+
+}
